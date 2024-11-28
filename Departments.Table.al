@@ -12,7 +12,7 @@ table 50101 "Departments"
         {
 
         }
-        field(3; "Despacho"; Integer)
+        field(3; "Office"; Integer)
         {
 
         }
@@ -20,7 +20,15 @@ table 50101 "Departments"
 
     keys
     {
+        key("Department code"; "Department Code")
+        {
+            Clustered = true;
+        }
 
+        key(Key2; Office)
+        {
+
+        }
     }
 
     fieldgroups

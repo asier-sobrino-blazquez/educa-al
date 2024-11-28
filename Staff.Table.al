@@ -12,11 +12,11 @@ table 50106 Staff
         {
 
         }
-        field(3; "Cargo"; Text[30])
+        field(3; "Job Title"; Text[30])
         {
 
         }
-        field(4; "Sueldo"; Text[30])
+        field(4; "Salary"; Text[30])
         {
 
         }
@@ -24,7 +24,18 @@ table 50106 Staff
 
     keys
     {
+        key("Staff Code"; "Staff Code")
+        {
+            Clustered = true;
+        }
+        key("Name"; "Name")
+        {
 
+        }
+        key("Job Title"; "Job Title")
+        {
+
+        }
     }
 
     fieldgroups

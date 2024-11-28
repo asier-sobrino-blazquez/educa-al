@@ -32,6 +32,18 @@ table 50103 Students
 
     keys
     {
+        key("Student ID"; "Student ID")
+        {
+            Clustered = true;
+        }
+        key("Direction"; "Direction")
+        {
+
+        }
+        key("Phone number"; "Phone number")
+        {
+
+        }
 
     }
 
@@ -39,28 +51,4 @@ table 50103 Students
     {
         // Add changes to field groups here
     }
-
-    var
-        myInt: Integer;
-
-    trigger OnInsert()
-    begin
-
-    end;
-
-    trigger OnModify()
-    begin
-
-    end;
-
-    trigger OnDelete()
-    begin
-
-    end;
-
-    trigger OnRename()
-    begin
-
-    end;
-
 }

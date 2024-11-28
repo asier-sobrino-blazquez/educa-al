@@ -29,7 +29,14 @@ table 50100 Cursos
 
     keys
     {
+        key("Course ID"; "Course ID")
+        {
+            Clustered = true;
+        }
+        key(Key2; "Course Name", "Course Desc.")
+        {
 
+        }
 
     }
 

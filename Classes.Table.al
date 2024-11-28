@@ -34,6 +34,15 @@ table 50102 "Classes"
 
     keys
     {
+        key(PK; "Course Id", Section)
+        {
+            Clustered = true;
+        }
+
+        key(Day; Day)
+        {
+
+        }
 
     }
 
