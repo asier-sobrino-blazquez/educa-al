@@ -6,19 +6,21 @@ table 50106 Staff
     {
         field(1; "Staff Code"; Code[3])
         {
-
+            Description = 'Primary Key';
+            Numeric = true;
         }
         field(2; "Name"; Text[30])
         {
-
+            NotBlank = true;
         }
         field(3; "Job Title"; Text[30])
         {
 
         }
-        field(4; "Salary"; Text[30])
+        field(4; "Salary"; Decimal)
         {
-
+            DecimalPlaces = 0 : 2;
+            MinValue = 0;
         }
     }
 
