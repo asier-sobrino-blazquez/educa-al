@@ -7,12 +7,12 @@ table 50101 "Departments"
         field(1; "Department Code"; Code[4])
         {
             Description = 'Primary key';
-            //uppercase
+            CharAllowed = 'AZ';
         }
         field(2; "Building"; Text[2])
         {
             Description = 'Department location';
-            //uppercase
+            CharAllowed = 'AZ';
 
         }
         field(3; "Office"; Integer)

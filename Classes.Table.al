@@ -8,7 +8,7 @@ table 50102 "Classes"
         {
             Description = 'Primary key';
             TableRelation = Courses."Course ID";
-            //Mayusculas
+            CharAllowed = 'AZ';
         }
 
         field(2; Section; Text[2])
@@ -27,7 +27,7 @@ table 50102 "Classes"
 
         field(5; Building; Text[2])
         {
-            //Letras mayusculas
+            CharAllowed = 'AZ';
         }
         field(6; Office; Integer)
         {

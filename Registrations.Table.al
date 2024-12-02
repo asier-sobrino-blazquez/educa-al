@@ -8,8 +8,7 @@ table 50104 Registrations
         {
             Description = 'Primary key';
             TableRelation = Classes."Course Id";
-
-            //Letra mayuscula
+            CharAllowed = 'AZ';
         }
 
         field(2; "Section"; Text[2])
