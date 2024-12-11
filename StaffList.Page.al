@@ -1,29 +1,29 @@
-page 50101 Departments
+page 50106 Staff
 {
     PageType = Card;
     ApplicationArea = All;
     UsageCategory = Administration;
-    SourceTable = "Departments";
+    SourceTable = Staff;
 
     layout
     {
         area(Content)
         {
-            repeater(Departments)
+            repeater(Staff)
             {
-                field("Department Code"; Rec."Department Code")
+                field("Staff Code"; Rec."Staff Code")
                 {
 
                 }
-                field("Building"; Rec.Building)
+                field("Name"; Rec."Name")
                 {
 
                 }
-                field("Office"; Rec.Office)
+                field("Job Title"; Rec."Job Title")
                 {
 
                 }
-                field("Director Code"; Rec."Director Code")
+                field("Salary"; Rec."Salary")
                 {
 
                 }

@@ -1,4 +1,4 @@
-page 50102 Courses
+page 50100 Courses
 {
     PageType = List;
     ApplicationArea = All;
@@ -9,7 +9,7 @@ page 50102 Courses
     {
         area(Content)
         {
-            repeater(GroupName)
+            repeater(Courses)
             {
                 field("Course ID"; Rec."Course ID")
                 {

@@ -9,31 +9,28 @@ page 50104 Registrations
     {
         area(Content)
         {
-            repeater(GroupName)
+            repeater(Registrations)
             {
-                field(Name; NameSource)
+                field("Course Id"; Rec."Course Id")
                 {
 
                 }
-            }
-        }
-        area(Factboxes)
-        {
+                field(Section; Rec.Section)
+                {
 
-        }
-    }
+                }
+                field("Student Code"; Rec."Student Code")
+                {
 
-    actions
-    {
-        area(Processing)
-        {
-            action(ActionName)
-            {
+                }
+                field("Registration Date"; Rec."Registration Date")
+                {
 
-                trigger OnAction()
-                begin
+                }
+                field("Registration Hour"; Rec."Registration Hour")
+                {
 
-                end;
+                }
             }
         }
     }
