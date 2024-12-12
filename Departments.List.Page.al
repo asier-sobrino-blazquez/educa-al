@@ -13,19 +13,19 @@ page 50101 Departments
             {
                 field("Department Code"; Rec."Department Code")
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Building"; Rec.Building)
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Office"; Rec.Office)
                 {
-
+                    ApplicationArea = All;
                 }
                 field("Director Code"; Rec."Director Code")
                 {
-
+                    ApplicationArea = All;
                 }
             }
         }

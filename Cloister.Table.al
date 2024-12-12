@@ -26,6 +26,8 @@ table 50105 Cloister
             Description = 'Helpers number';
             InitValue = 0;
             MinValue = 0;
+            FieldClass = FlowField;
+            CalcFormula = count("Staff" where("Job Title" = filter('Helper')));
         }
         field(6; Salary; Decimal)
         {
@@ -35,6 +37,12 @@ table 50105 Cloister
         field(7; "Department Code"; Code[4])
         {
             TableRelation = Departments."Department Code";
+        }
+
+        field(8; "Taught classes"; Integer)
+        {
+            FieldClass = FlowField;
+            CalcFormula = count(Classes where("Teacher Code" = field("Teacher ID")));
         }
     }
 
