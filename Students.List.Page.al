@@ -1,6 +1,6 @@
 page 50103 Students
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Students;

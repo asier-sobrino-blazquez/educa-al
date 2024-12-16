@@ -1,14 +1,14 @@
 table 50102 "Classes"
 {
     DataClassification = ToBeClassified;
-
+    DrillDownPageId = "Classes";
     fields
     {
         field(1; "Course Id"; Code[3])
         {
             Description = 'Primary key';
             TableRelation = Courses."Course ID";
-            CharAllowed = 'AZ';
+            CharAllowed = 'CC09';
         }
 
         field(2; Section; Text[2])
@@ -35,6 +35,7 @@ table 50102 "Classes"
         }
         field(7; "Teacher Code"; Code[2])
         {
+
             TableRelation = "Cloister"."Teacher ID";
         }
     }

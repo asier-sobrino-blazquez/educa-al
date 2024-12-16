@@ -1,6 +1,6 @@
 page 50106 Staff
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Staff;

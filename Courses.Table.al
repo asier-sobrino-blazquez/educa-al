@@ -7,7 +7,7 @@ table 50100 Courses
         field(1; "Course ID"; Code[3])
         {
             Description = 'Primary key';
-            CharAllowed = 'AZ';
+            CharAllowed = 'CC09';
         }
         field(2; "Course Name"; Text[100])
         {

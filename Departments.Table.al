@@ -25,6 +25,11 @@ table 50101 "Departments"
         {
             TableRelation = Cloister."Teacher ID";
         }
+        field(5; "Avg department fee"; Integer)
+        {
+            FieldClass = FlowField;
+            CalcFormula = average(Courses.fee where("Department Code" = field("Department Code")));
+        }
     }
 
     keys

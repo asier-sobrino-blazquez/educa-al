@@ -1,6 +1,6 @@
 page 50105 Cloister
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = Cloister;

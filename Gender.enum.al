@@ -6,11 +6,11 @@ enum 50100 Gender
     {
 
     }
-    value(1; "H")
+    value(1; "M")
     {
 
     }
-    value(2; "M")
+    value(2; "F")
     {
 
     }

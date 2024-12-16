@@ -1,6 +1,6 @@
 page 50101 Departments
 {
-    PageType = Card;
+    PageType = List;
     ApplicationArea = All;
     UsageCategory = Administration;
     SourceTable = "Departments";

@@ -1,7 +1,6 @@
 table 50105 Cloister
 {
     DataClassification = ToBeClassified;
-
     fields
     {
         field(1; "Teacher ID"; Code[2])
@@ -42,7 +41,12 @@ table 50105 Cloister
         field(8; "Taught classes"; Integer)
         {
             FieldClass = FlowField;
-            CalcFormula = count(Classes where("Teacher Code" = field("Teacher ID")));
+            CalcFormula = count(Classes where("Teacher Code" = field("Teacher ID"), Day = field("Filter by day")));
+        }
+        field(9; "Filter by day"; Text[10])
+        {
+            FieldClass = FlowFilter;
+            Caption = 'Filter by day';
         }
     }
 
